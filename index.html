@@ -17,22 +17,31 @@
 <![endif]-->
 
 <div class="container">
-  <div class="solution">
+<div class="select_type">
+<div class="category">
+<select id="category" name="text"> <!--Supplement an id here instead of using 'text'-->
+        <option value="none" selected=""></option> 
+        <option value="Event Details">Event Details</option> 
+        <option value="Website">Website &amp; Registration</option>
+        <option value="Promotion">Promotion &amp; Communication</option>
+        <option value="Invitee">Invitee Management</option>
+        <option value="Reporting">Reporting</option>
+    </select>
+  </div>
+  <div class="subCategory">
+<select id="subCategory"><option value="event_website">Event Website</option><option value="registration">Registration</option><option value="surveys">Survey</option><option value="onsite">Onsite</option><option value="question">Questions</option></select>
+</div>
+<div class="modes">
+  <select id="modes">
+    <option value="chat">Chat</option>
+    <option value="email">Email</option>
+    <option value="case_notes">Case Notes</option>
+  </select>
+  </div>
+</div>
+<div class="solution">
 
-  </div>
-  <div class="select_type">
-      <select id="category" name="text"> <!--Supplement an id here instead of using 'text'-->
-          <option value="none"selected ></option> 
-          <option value="Event Details" >Event Details</option> 
-          <option value="Website">Website & Registration</option>
-          <option value="Promotion">Promotion & Communication</option>
-          <option value="Invitee">Invitee Management</option>
-          <option value="Reporting">Reporting</option>
-      </select>
-      <select id="subCategory">
-          
-        </select>
-  </div>
+</div>
 </div>
 
 <script type="text/javascript" src="script.js"></script>
