@@ -10,8 +10,10 @@ console.log(subCategory);
 function changeSubcategory() {
     if(this.value === 'Event Details') {
         subCategory.innerHTML = "<option value='general'>General</option><option value='Agenda Items'>Agenda Items</option><option value='Pricing'>Pricing</option><option value='Travel'>Travel</option>"
+    } 
+    
+    else if (this.value === 'Website') {
+        subCategory.innerHTML = "<option value='event_website'>Event Website</option><option value='registration'>Registration</option><option value='surveys'>Survey</option><option value='onsite'>Onsite</option><option value='question'>Questions</option>"
     }
 }
-
-
 
