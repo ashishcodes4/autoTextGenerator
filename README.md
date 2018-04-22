@@ -33,3 +33,6 @@ Assign
 
 5.) Reporting
 Reports
+
+************************************************************
+every sub-category there would be several links. Every link would have 3 modes of displaying text. Chat, email and cases notes. 
