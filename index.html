@@ -1,8 +1,18 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]>
+<!-->
+<html class="no-js">
+<!--
+<![endif]-->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,37 +23,44 @@
 </head>
 <body>
 <!--[if lt IE 7]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+<p class="browsehappy">You are using an 
+  <strong>outdated</strong> browser. Please 
+  <a href="#">upgrade your browser</a> to improve your experience.
+</p>
 <![endif]-->
-
 <div class="container">
-<div class="select_type">
-<div class="category">
-<select id="category" name="text"> <!--Supplement an id here instead of using 'text'-->
-        <option value="none" selected=""></option> 
-        <option value="Event Details">Event Details</option> 
+  <div class="select_type">
+    <div class="category">
+      <select id="category" name="text">
+        <!--Supplement an id here instead of using 'text'-->
+        <option value="none" selected=""></option>
+        <option value="Event Details">Event Details</option>
         <option value="Website">Website &amp; Registration</option>
         <option value="Promotion">Promotion &amp; Communication</option>
         <option value="Invitee">Invitee Management</option>
         <option value="Reporting">Reporting</option>
-    </select>
+      </select>
+    </div>
+    <div class="subCategory">
+      <select id="subCategory">
+        <option value="event_website">Event Website</option>
+        <option value="registration">Registration</option>
+        <option value="surveys">Survey</option>
+        <option value="onsite">Onsite</option>
+        <option value="question">Questions</option>
+      </select>
+    </div>
+    <div class="modes">
+      <select id="modes">
+        <option value="null"></option>
+        <option value="chat">Chat</option>
+        <option value="email">Email</option>
+        <option value="case_notes">Case Notes</option>
+      </select>
+    </div>
   </div>
-  <div class="subCategory">
-<select id="subCategory"><option value="event_website">Event Website</option><option value="registration">Registration</option><option value="surveys">Survey</option><option value="onsite">Onsite</option><option value="question">Questions</option></select>
+  <div class="solution"></div>
 </div>
-<div class="modes">
-  <select id="modes">
-    <option value="chat">Chat</option>
-    <option value="email">Email</option>
-    <option value="case_notes">Case Notes</option>
-  </select>
-  </div>
-</div>
-<div class="solution">
-
-</div>
-</div>
-
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

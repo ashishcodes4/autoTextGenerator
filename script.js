@@ -1,6 +1,6 @@
 const category = document.querySelector("#category");
 const subCategory = document.querySelector('#subCategory');
-const mode = document.querySelector('#mode');
+const mode = document.querySelector('#modes');
 
 category.addEventListener('change', changeSubcategory);
 subCategory.addEventListener('change', showSubCat);
