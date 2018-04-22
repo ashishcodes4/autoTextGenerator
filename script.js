@@ -15,5 +15,17 @@ function changeSubcategory() {
     else if (this.value === 'Website') {
         subCategory.innerHTML = "<option value='event_website'>Event Website</option><option value='registration'>Registration</option><option value='surveys'>Survey</option><option value='onsite'>Onsite</option><option value='question'>Questions</option>"
     }
+
+    else if (this.value === 'Promotion') {
+        subCategory.innerHTML = "<option value='web'>Web</option><option value='email'>Email</option>"
+    }
+
+    else if (this.value === 'Invitee') {
+        subCategory.innerHTML = "<option value='manage'>Manage</option><option value='quickAction'>Qucik Action</option><option value='import'>Import</option><option value='assign'>Assign</option>"
+    }
+
+    else if (this.value === 'reporting') {
+        subCategory.innerHTML = "<option value='reporting'>Reporting</option>"
+    }
 }
 
