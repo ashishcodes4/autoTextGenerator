@@ -2,13 +2,13 @@ const category = document.querySelector("#category");
 const subCategory = document.querySelector('#subCategory');
 
 category.addEventListener('change', changeSubcategory);
+subCategory.addEventListener('change', showSubCat);
 
 console.log(category);
-console.log(subCategory);
 
 
 function changeSubcategory() {
-    if(this.value === 'Event Details') {
+    if (this.value === 'Event Details') {
         subCategory.innerHTML = "<option value='general'>General</option><option value='Agenda Items'>Agenda Items</option><option value='Pricing'>Pricing</option><option value='Travel'>Travel</option>"
     } 
     
@@ -24,8 +24,14 @@ function changeSubcategory() {
         subCategory.innerHTML = "<option value='manage'>Manage</option><option value='quickAction'>Qucik Action</option><option value='import'>Import</option><option value='assign'>Assign</option>"
     }
 
-    else if (this.value === 'reporting') {
+    else if (this.value === 'Reporting') {
         subCategory.innerHTML = "<option value='reporting'>Reporting</option>"
     }
 }
+
+function showSubCat() {
+    console.log(subCategory);
+}
+
+
 
