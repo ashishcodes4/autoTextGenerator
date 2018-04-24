@@ -55,3 +55,6 @@ Event Details > General
 - Duplicating Event
 - Deleting Event
 - Archiving Event
+
+Event Details > Agenda Items
+****
