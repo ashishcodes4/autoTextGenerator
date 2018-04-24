@@ -35,4 +35,23 @@ Assign
 Reports
 
 ************************************************************
-every sub-category there would be several links. Every link would have 3 modes of displaying text. Chat, email and cases notes. 
+every sub-category there would be several links. Every link would have 3 modes of displaying text. Chat, email and cases notes.
+
+Event Details > General
+****Event Information****
+- Chaning date
+- Changing planner email address
+- upadting capacity
+- Event custom field
+****Event*******
+- Activating Features
+- Event Visibility
+- Event Credits
+*****Registration******
+- Adding Registration
+- Associating Item with
+****Event Status******
+- Event status audit
+- Duplicating Event
+- Deleting Event
+- Archiving Event
