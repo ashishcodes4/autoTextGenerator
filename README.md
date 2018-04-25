@@ -65,7 +65,9 @@ Event Details > Agenda Items
 make sure mongodb is running locally
 
 Go to root directory of website
+make sure mongoDB is running locally
 Then run following commands
-`npm install
 
-npm start`
+./install.sh //to send the data.json file to mongoDB make sure mongoDB is running beforehand
+npm install //install the dependency
+npm start //run the express server
