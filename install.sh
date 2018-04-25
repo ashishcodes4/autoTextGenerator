@@ -1,0 +1,1 @@
+mongoimport --db autoTextGenerator --collection posts --jsonArray --file data.json
