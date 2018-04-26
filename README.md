@@ -59,8 +59,9 @@ Event Details > General \***\*Event Information\*\***
 Event Details > Agenda Items
 
 ---
-
-\*\*How to run the website locally
+---
+\*\*
+How to run the website locally
 
 make sure mongodb is running locally
 
